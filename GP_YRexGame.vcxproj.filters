@@ -15,25 +15,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Player.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="Console.h">
       <Filter>소스 파일</Filter>
     </ClInclude>
-    <ClInclude Include="game.h">
+    <ClInclude Include="Run.h">
       <Filter>소스 파일</Filter>
     </ClInclude>
-    <ClInclude Include="Player.h">
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Run.cpp">
       <Filter>소스 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Config.h">
+    </ClCompile>
+    <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
-    </ClInclude>
+    </ClCompile>
   </ItemGroup>
 </Project>
